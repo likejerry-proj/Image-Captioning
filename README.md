@@ -47,5 +47,8 @@ After training we can caption one image for instance. Change the img path if nec
 ```
 python caption.py --img='caption_data/val2014/COCO_val2014_000000000285.jpg' --model='BEST_checkpoint_coco_5_cap_per_img_5_min_word_freq.pth.tar' --word_map='caption_data/WORDMAP_coco_5_cap_per_img_5_min_word_freq.json' --beam_size=5
 ```
+#### Here is an example:
+<div align="center"> <img src="https://github.com/likejerry-proj/Image-Captioning/blob/main/img/example.jpg" width = 500 /> </div>
 
-
+## Notes
+All codes have detailed comments in both English and Chinese!
